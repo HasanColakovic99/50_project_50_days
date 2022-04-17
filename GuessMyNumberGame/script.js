@@ -53,7 +53,7 @@ const again = function () {
 
     document.querySelector('.guess').value = " ";
 
-    document.querySelector('.message').textContent = 'Start guessing...';
+    displayMessage('Start guessing...');
 
     document.querySelector('.number').textContent = '?';
 
