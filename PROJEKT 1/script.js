@@ -6,7 +6,7 @@ const paneli = document.querySelectorAll('.panel')
 paneli.forEach((panel) => {
     panel.addEventListener('click', () => {
         // prije nego što dodamo na klik nekom elementu klasu "active" obrisat ćemo svima klasu "active" uz pomoć funkcije koju smo napravili
-        brisanjeKlaseActive()
+        brisanjeKlaseActive();
         panel.classList.add('active')
     })
 })
