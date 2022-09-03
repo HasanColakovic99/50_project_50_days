@@ -1,12 +1,13 @@
 const counters = document.querySelectorAll('.counter');
 
-counters.forEach((counter) => {
+counters.forEach(counter => {
+
     counter.innerText = '0';
-
+    
     const updateCounter = () => {
-        const target = +counter.getAttribute('data-target');
+        
         const c = +counter.innerText;
-
+        const target = +counter.getAttribute('data-target');
         const increment = target / 200;
 
         if(c < target){
@@ -16,7 +17,8 @@ counters.forEach((counter) => {
         else {
             counter.innerText = target;
         }
-    };
+    };  
 
     updateCounter();
-})
+
+});
