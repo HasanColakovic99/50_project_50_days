@@ -1,3 +1,1 @@
-5O PROJEKATA U 50 DANA
-
-50 projekata HTML-a, CSS-a te plain JS-a.
+50 project in 50 days with HTML, CSS and JavaScript.
